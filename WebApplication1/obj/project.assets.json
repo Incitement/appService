@@ -11501,23 +11501,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nimda\\.nuget\\packages\\": {},
+    "C:\\Users\\sysadmin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nimda\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\sysadmin\\Source\\Repos\\Incitement\\appServiceLabTwo\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\nimda\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-      "packagesPath": "C:\\Users\\nimda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nimda\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
+      "projectPath": "C:\\Users\\sysadmin\\Source\\Repos\\Incitement\\appServiceLabTwo\\WebApplication1\\WebApplication1.csproj",
+      "packagesPath": "C:\\Users\\sysadmin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sysadmin\\Source\\Repos\\Incitement\\appServiceLabTwo\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\nimda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sysadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
