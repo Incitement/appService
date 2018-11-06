@@ -35,3 +35,10 @@ body {
         display: none;
     }
 }
+
+/*Login Right Justify*/
+
+login
+{
+    float : right
+}
