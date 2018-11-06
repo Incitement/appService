@@ -31,3 +31,4 @@ C:\Users\nimda\Source\Repos\appServiceLabTwo\WebApplication1\obj\Debug\netcoreap
 C:\Users\nimda\Source\Repos\appServiceLabTwo\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.dll
 C:\Users\nimda\Source\Repos\appServiceLabTwo\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.pdb
 C:\Users\nimda\Source\Repos\appServiceLabTwo\WebApplication1\obj\Debug\netcoreapp2.1\WebApplication1.csproj.CopyComplete
+C:\Users\nimda\Source\Repos\appServiceLabTwo\WebApplication1\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
