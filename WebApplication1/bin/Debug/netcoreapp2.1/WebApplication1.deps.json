@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "e071b1a7c9d575b1b3d9ba6c9a1be1d9c6701ca2"
+    "signature": "ead32f06247a46e34baab3dc449c2c62b49fec8e"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "WebApplication1/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNet.WebPages.WebData": "3.2.6",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0"
@@ -33,6 +34,31 @@
         },
         "compile": {
           "WebApplication1.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages.Data/3.2.6": {
+        "runtime": {
+          "lib/net45/WebMatrix.Data.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/WebMatrix.Data.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages.WebData/3.2.6": {
+        "dependencies": {
+          "Microsoft.AspNet.WebPages.Data": "3.2.6"
+        },
+        "runtime": {
+          "lib/net45/WebMatrix.WebData.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/WebMatrix.WebData.dll": {}
         }
       },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
@@ -3154,6 +3180,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.AspNet.WebPages.Data/3.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pe/s6xWYSazztcloeqDmpOe+xyBQImYcUSVNdXafpM1IcVpTGDczXtW1neGPFihYgDjXHR8sqjH4WALNdna3vw==",
+      "path": "microsoft.aspnet.webpages.data/3.2.6",
+      "hashPath": "microsoft.aspnet.webpages.data.3.2.6.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages.WebData/3.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6CpdqTbqvltFZmiBFpGrk2qZcZZeGUNxB/cADJRVXs2niOWPkeyp2poFH8xZyE8AFDjaWp7ZRK1tUjrTNzWY8A==",
+      "path": "microsoft.aspnet.webpages.webdata/3.2.6",
+      "hashPath": "microsoft.aspnet.webpages.webdata.3.2.6.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
