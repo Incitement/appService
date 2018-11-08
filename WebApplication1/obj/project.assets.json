@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "jQuery/3.3.1": {
+        "type": "package"
+      },
+      "jQuery.Validation/1.17.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.4.4"
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -2395,6 +2404,13 @@
           "lib/netstandard1.4/Microsoft.IdentityModel.Xml.dll": {}
         }
       },
+      "Microsoft.jQuery.Unobtrusive.Validation/3.2.11": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "1.8.0",
+          "jQuery.Validation": "1.8.0.1"
+        }
+      },
       "Microsoft.Net.Http.Headers/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -4354,10 +4370,56 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "WebMatrix.Data/2.0.30506": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebPages.Data": "2.0.20710"
+        }
+      },
+      "WebMatrix.WebData/2.0.30506": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebPages.WebData": "2.0.20710"
+        }
       }
     }
   },
   "libraries": {
+    "jQuery/3.3.1": {
+      "sha512": "Emsts1D6E2AgHVBm4cTD2dxoRyWVG+3zK1x8mYbf+k6aAArPTXHR2Ip++o1utlNbmYIzaPFnhGw3YDexp8PjlQ==",
+      "type": "package",
+      "path": "jquery/3.3.1",
+      "files": [
+        ".signature.p7s",
+        "Content/Scripts/jquery-3.3.1-vsdoc.js",
+        "Content/Scripts/jquery-3.3.1.js",
+        "Content/Scripts/jquery-3.3.1.min.js",
+        "Content/Scripts/jquery-3.3.1.min.map",
+        "Content/Scripts/jquery-3.3.1.slim.js",
+        "Content/Scripts/jquery-3.3.1.slim.min.js",
+        "Content/Scripts/jquery-3.3.1.slim.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-3.3.1.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.3.3.1.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "jQuery.Validation/1.17.0": {
+      "sha512": "mC3CktdSA51R1r4Ma0I1RciZq7rvqrr6ikAv44pGYPUuJ8o5IiZsYAmBFvaFwzTA3HrBiVjR84Y4R/MP6KBAFg==",
+      "type": "package",
+      "path": "jquery.validation/1.17.0",
+      "files": [
+        ".signature.p7s",
+        "Content/Scripts/jquery.validate-vsdoc.js",
+        "Content/Scripts/jquery.validate.js",
+        "Content/Scripts/jquery.validate.min.js",
+        "jquery.validation.1.17.0.nupkg.sha512",
+        "jquery.validation.nuspec"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "rMDlyePoxggkmN/qgha1+BR2Uy+dOr38xKCQOPfVNKGY07R2nYJGMTKJFE1XFgwD70RYUNazf2fqutjJF18XgQ==",
       "type": "package",
@@ -6425,6 +6487,18 @@
         "microsoft.identitymodel.xml.nuspec"
       ]
     },
+    "Microsoft.jQuery.Unobtrusive.Validation/3.2.11": {
+      "sha512": "u2y+fTB8b1LwdX5O4D8tYsmwvY542WJwe5ZG47Pb0qBfKgWEI73R1G1+BLlTM2qvUIzH2jubqh1Oufw/W34quA==",
+      "type": "package",
+      "path": "microsoft.jquery.unobtrusive.validation/3.2.11",
+      "files": [
+        ".signature.p7s",
+        "Content/Scripts/jquery.validate.unobtrusive.js",
+        "Content/Scripts/jquery.validate.unobtrusive.min.js",
+        "microsoft.jquery.unobtrusive.validation.3.2.11.nupkg.sha512",
+        "microsoft.jquery.unobtrusive.validation.nuspec"
+      ]
+    },
     "Microsoft.Net.Http.Headers/2.1.1": {
       "sha512": "tNh1YCfZ943/d3WSE6cD57O05rhvi3lmKgwoi3zFg4wc/O/oec5FNHZmBCRau4GfzRC5zS/CBdOAkRwbvtZSaQ==",
       "type": "package",
@@ -6940,10 +7014,11 @@
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -11536,6 +11611,26 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "WebMatrix.Data/2.0.30506": {
+      "sha512": "QfroiIiiHiMPBjV7Cxs9eQ8CsiatT0XImJHaY3j2Gq6xoU2UkvvhCXQ6XmbN78O+H6AeM561A/89TvWZd23D9g==",
+      "type": "package",
+      "path": "webmatrix.data/2.0.30506",
+      "files": [
+        ".signature.p7s",
+        "webmatrix.data.2.0.30506.nupkg.sha512",
+        "webmatrix.data.nuspec"
+      ]
+    },
+    "WebMatrix.WebData/2.0.30506": {
+      "sha512": "xv+DZtcq684tcg4b8SbTxVCU62LPOKN2TSvIBlgyXRVEUIGhX4XdG7Fs5DFjoxviHP/D4RBe26rQieK8WzKIbA==",
+      "type": "package",
+      "path": "webmatrix.webdata/2.0.30506",
+      "files": [
+        ".signature.p7s",
+        "webmatrix.webdata.2.0.30506.nupkg.sha512",
+        "webmatrix.webdata.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -11543,7 +11638,12 @@
       "Microsoft.AspNet.WebPages.WebData >= 3.2.6",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Microsoft.jQuery.Unobtrusive.Validation >= 3.2.11",
+      "WebMatrix.Data >= 2.0.30506",
+      "WebMatrix.WebData >= 2.0.30506",
+      "jQuery >= 3.3.1",
+      "jQuery.Validation >= 1.17.0"
     ]
   },
   "packageFolders": {
@@ -11553,11 +11653,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nimda\\Source\\Repos\\appServiceLabTwo\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\nimda\\source\\repos\\appServiceLabTwo\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\nimda\\Source\\Repos\\appServiceLabTwo\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "C:\\Users\\nimda\\source\\repos\\appServiceLabTwo\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\nimda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nimda\\Source\\Repos\\appServiceLabTwo\\WebApplication1\\obj\\",
+      "outputPath": "C:\\Users\\nimda\\source\\repos\\appServiceLabTwo\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11606,6 +11706,26 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "Microsoft.jQuery.Unobtrusive.Validation": {
+            "target": "Package",
+            "version": "[3.2.11, )"
+          },
+          "WebMatrix.Data": {
+            "target": "Package",
+            "version": "[2.0.30506, )"
+          },
+          "WebMatrix.WebData": {
+            "target": "Package",
+            "version": "[2.0.30506, )"
+          },
+          "jQuery": {
+            "target": "Package",
+            "version": "[3.3.1, )"
+          },
+          "jQuery.Validation": {
+            "target": "Package",
+            "version": "[1.17.0, )"
           }
         },
         "imports": [

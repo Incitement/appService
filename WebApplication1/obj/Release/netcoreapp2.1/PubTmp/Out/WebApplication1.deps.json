@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8d19439ef22c432fe18f0eac697c8789fe30c00a"
+    "signature": "5902ab3b641f0d06e5083b6dc57a5f7329ab6a7d"
   },
   "compilationOptions": {
     "defines": [
@@ -24,14 +24,57 @@
     ".NETCoreApp,Version=v2.1": {
       "WebApplication1/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNet.WebPages.WebData": "3.2.6",
           "Microsoft.AspNetCore.App": "2.1.1",
-          "Microsoft.NETCore.App": "2.1.0"
+          "Microsoft.NETCore.App": "2.1.0",
+          "Microsoft.jQuery.Unobtrusive.Validation": "3.2.11",
+          "WebMatrix.Data": "2.0.30506",
+          "WebMatrix.WebData": "2.0.30506",
+          "jQuery": "3.3.1",
+          "jQuery.Validation": "1.17.0"
         },
         "runtime": {
           "WebApplication1.dll": {}
         },
         "compile": {
           "WebApplication1.dll": {}
+        }
+      },
+      "jQuery/3.3.1": {},
+      "jQuery.Validation/1.17.0": {
+        "dependencies": {
+          "jQuery": "3.3.1"
+        }
+      },
+      "Microsoft.AspNet.WebPages.Data/3.2.6": {
+        "runtime": {
+          "lib/net45/WebMatrix.Data.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/WebMatrix.Data.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebPages.WebData/3.2.6": {
+        "dependencies": {
+          "Microsoft.AspNet.WebPages.Data": "3.2.6"
+        },
+        "runtime": {
+          "lib/net45/WebMatrix.WebData.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.60510.0"
+          }
+        },
+        "compile": {
+          "lib/net45/WebMatrix.WebData.dll": {}
+        }
+      },
+      "Microsoft.jQuery.Unobtrusive.Validation/3.2.11": {
+        "dependencies": {
+          "jQuery": "3.3.1",
+          "jQuery.Validation": "1.17.0"
         }
       },
       "Microsoft.NETCore.App/2.1.0": {
@@ -203,6 +246,16 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.0"
+        }
+      },
+      "WebMatrix.Data/2.0.30506": {
+        "dependencies": {
+          "Microsoft.AspNet.WebPages.Data": "3.2.6"
+        }
+      },
+      "WebMatrix.WebData/2.0.30506": {
+        "dependencies": {
+          "Microsoft.AspNet.WebPages.WebData": "3.2.6"
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3151,6 +3204,41 @@
       "serviceable": false,
       "sha512": ""
     },
+    "jQuery/3.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Emsts1D6E2AgHVBm4cTD2dxoRyWVG+3zK1x8mYbf+k6aAArPTXHR2Ip++o1utlNbmYIzaPFnhGw3YDexp8PjlQ==",
+      "path": "jquery/3.3.1",
+      "hashPath": "jquery.3.3.1.nupkg.sha512"
+    },
+    "jQuery.Validation/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mC3CktdSA51R1r4Ma0I1RciZq7rvqrr6ikAv44pGYPUuJ8o5IiZsYAmBFvaFwzTA3HrBiVjR84Y4R/MP6KBAFg==",
+      "path": "jquery.validation/1.17.0",
+      "hashPath": "jquery.validation.1.17.0.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages.Data/3.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pe/s6xWYSazztcloeqDmpOe+xyBQImYcUSVNdXafpM1IcVpTGDczXtW1neGPFihYgDjXHR8sqjH4WALNdna3vw==",
+      "path": "microsoft.aspnet.webpages.data/3.2.6",
+      "hashPath": "microsoft.aspnet.webpages.data.3.2.6.nupkg.sha512"
+    },
+    "Microsoft.AspNet.WebPages.WebData/3.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6CpdqTbqvltFZmiBFpGrk2qZcZZeGUNxB/cADJRVXs2niOWPkeyp2poFH8xZyE8AFDjaWp7ZRK1tUjrTNzWY8A==",
+      "path": "microsoft.aspnet.webpages.webdata/3.2.6",
+      "hashPath": "microsoft.aspnet.webpages.webdata.3.2.6.nupkg.sha512"
+    },
+    "Microsoft.jQuery.Unobtrusive.Validation/3.2.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u2y+fTB8b1LwdX5O4D8tYsmwvY542WJwe5ZG47Pb0qBfKgWEI73R1G1+BLlTM2qvUIzH2jubqh1Oufw/W34quA==",
+      "path": "microsoft.jquery.unobtrusive.validation/3.2.11",
+      "hashPath": "microsoft.jquery.unobtrusive.validation.3.2.11.nupkg.sha512"
+    },
     "Microsoft.NETCore.App/2.1.0": {
       "type": "package",
       "serviceable": true,
@@ -3199,6 +3287,20 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "WebMatrix.Data/2.0.30506": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QfroiIiiHiMPBjV7Cxs9eQ8CsiatT0XImJHaY3j2Gq6xoU2UkvvhCXQ6XmbN78O+H6AeM561A/89TvWZd23D9g==",
+      "path": "webmatrix.data/2.0.30506",
+      "hashPath": "webmatrix.data.2.0.30506.nupkg.sha512"
+    },
+    "WebMatrix.WebData/2.0.30506": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xv+DZtcq684tcg4b8SbTxVCU62LPOKN2TSvIBlgyXRVEUIGhX4XdG7Fs5DFjoxviHP/D4RBe26rQieK8WzKIbA==",
+      "path": "webmatrix.webdata/2.0.30506",
+      "hashPath": "webmatrix.webdata.2.0.30506.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
@@ -4309,7 +4411,7 @@
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "sha512-znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },

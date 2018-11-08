@@ -1,48 +1,34 @@
 ﻿@page
 @model RegisterModel
 @using WebMatrix.Data;
+@using WebMatrix.WebData;
 @{
     ViewData["Title"] = "Register";
 
-    var db = Database.OpenConnectionString("Server=tcp:sqlservertouse1000.database.windows.net,1433;Initial Catalog=coreDB;User ID=adminsa;Password=RDMJ@july2037;Encrypt=true;Connection Timeout=30;");
-    var Name = Request.Form["Name"];
-    var Password = Request.Form["Pass"];
 
 
-        // Define the insert query. The values to assign to the
-        // columns in the Users table are defined as parameters
-        // with the VALUES keyword.
-        if (ModelState.IsValid)
-        {
-            var insertQuery = "INSERT INTO Users(Name, Pass) " +
-                "VALUES (@0, @1,)";
-            db.Execute(insertQuery, Name, Password);
-            // Display the page that lists users.
-            //Response.Redirect("~/ListUsers");
-        }
+    }
 
-}
-<h2>@ViewData["Title"]</h2>
 
 <!DOCTYPE html>
 <html>
 
 
 <body>
-    <h1>Add New User</h1>
+    <h1>Registerr</h1>
 
   <!--Html.ValidationSummary("Errors with your submission:")-->
 
     <form method="post" action="">
         <fieldset>
-            <legend>Add Product</legend>
+            <legend>Add User</legend>
             <div>
                 <label>Name:</label>
-                <input name="Name" type="text" size="50" value="@Name" />
+                <input name="Name" type="text" size="50" value="">
             </div>
             <div>
                 <label>Password:</label>
-                <input name="Password" type="text" size="50" value="@Password" />
+                <input name="Pass" type="text" size="50" value="">
             </div>
             <div>
                 <label>&nbsp;</label>
