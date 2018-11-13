@@ -28,6 +28,8 @@ Newest Goal:
 - Link to custom subdomain
 - Link custom DNS
 - Build deployment options with load testing on a proper DevOps Org. DELETE END OF DAY
+- Create the landing pages for Microsoft, Google
+- Look further into creating a custom user profile database with Azure DB
 
 
 
