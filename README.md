@@ -1,4 +1,4 @@
-# appServiceLabTwo
+# App Services Super Force Team X
 This repository is for training a group of individuals how to do things. 
 
 Using ASP.NET Core, this builds pages that allow accessibility to:
