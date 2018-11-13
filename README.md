@@ -48,3 +48,8 @@ Resources:
 - Custom Domain: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain
 
 - .NET CORE with SQL: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb
+
+- Windows Containerization: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-windows-containers-custom-fonts
+*NOTE: WINDOWS CONTAINERIZATION IS A SEPARATE PROJECT UNDER "CREEDLAB". PLEASE REFER TO CREEDLAB.SLN WITH CONNER FOR INFO
+
+- User Auth: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-auth-aad
