@@ -16,5 +16,10 @@ The custom SQL form currently consists of Username and Password fields, allowing
 2. Make sure all code is intact and safe on GitHub.
 3. Fix the ReadMe issue
 4. Fix sanitization on custom SQL forms
-5. Kill ourselves
+5. Fix master syncing with github repo branching corrections and fix syncing methodology 
+
+
+Newest Goal:
+- Link to custom subdomain
+- Link custom DNS
 
