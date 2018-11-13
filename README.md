@@ -37,21 +37,22 @@ Resources:
 
 - Load SSL Cert: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-ssl-cert-load
 
+# Special
 - DevOps Resources: https://docs.microsoft.com/en-us/azure/devops/user-guide/what-happened-vsts?view=vsts
-
+# Special
 - Continuous Deployment: https://docs.microsoft.com/en-us/azure/app-service/app-service-continuous-deployment
 
 - SSL Binding: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-ssl
 
 - Custom Domain: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain
-
+# Special
 - .NET CORE with SQL: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb
 
 - Windows Containerization: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-windows-containers-custom-fonts
 *NOTE: WINDOWS CONTAINERIZATION IS A SEPARATE PROJECT UNDER "CREEDLAB". PLEASE REFER TO CREEDLAB.SLN WITH CONNER FOR INFO
 
 - User Auth: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-auth-aad
-
+# Special
 - Diagnostics: https://docs.microsoft.com/en-us/azure/app-service/app-service-diagnostics
 
 - Authe and autho: https://docs.microsoft.com/en-us/azure/app-service/app-service-authentication-overview
