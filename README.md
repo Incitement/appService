@@ -23,7 +23,6 @@ The custom SQL form currently consists of Username and Password fields, allowing
 5. Fix master syncing with github repo branching corrections and fix syncing methodology 
 6. Custom landing pages for fun
 
-
 Newest Goal:
 - Link to custom subdomain
 - Link custom DNS
@@ -31,11 +30,10 @@ Newest Goal:
 - Create the landing pages for Microsoft, Google
 - Look further into creating a custom user profile database with Azure DB
 
-
-
 Resources:
 
 - Overview: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-overview
+  - App Service Plans: https://docs.microsoft.com/en-us/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview
 
 - Load SSL Cert: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-ssl-cert-load
 
@@ -53,3 +51,7 @@ Resources:
 *NOTE: WINDOWS CONTAINERIZATION IS A SEPARATE PROJECT UNDER "CREEDLAB". PLEASE REFER TO CREEDLAB.SLN WITH CONNER FOR INFO
 
 - User Auth: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-auth-aad
+
+- Diagnostics: https://docs.microsoft.com/en-us/azure/app-service/app-service-diagnostics
+
+- Authe and autho: https://docs.microsoft.com/en-us/azure/app-service/app-service-authentication-overview
