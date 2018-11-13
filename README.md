@@ -7,14 +7,16 @@ Using ASP.NET Core, this builds pages that allow accessibility to:
   
   - Microsoft
   
-  - Custom SQL
+  - Custom SQL**
   
   - Github
   
   - Magic Telepathy 
   
-The custom SQL form currently consists of Username and Password fields, allowing entries to a local DB to add credentials with our forms.
+**The custom SQL form currently consists of Username and Password fields, allowing entries to a local DB to add credentials with our forms.
   
+  
+# Tasks
 //TODO//
 1. Re-make dev VM's because of Roberto
 2. Make sure all code is intact and safe on GitHub.
