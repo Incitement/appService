@@ -35,6 +35,8 @@ Newest Goal:
 
 Resources:
 
+- Overview: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-overview
+
 - Load SSL Cert: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-ssl-cert-load
 
 - DevOps Resources: https://docs.microsoft.com/en-us/azure/devops/user-guide/what-happened-vsts?view=vsts
