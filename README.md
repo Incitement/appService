@@ -26,4 +26,5 @@ The custom SQL form currently consists of Username and Password fields, allowing
 Newest Goal:
 - Link to custom subdomain
 - Link custom DNS
+- Build deployment options with load testing on a proper DevOps Org. DELETE END OF DAY
 
