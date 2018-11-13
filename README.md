@@ -46,3 +46,5 @@ Resources:
 - SSL Binding: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-ssl
 
 - Custom Domain: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-custom-domain
+
+- .NET CORE with SQL: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb
