@@ -18,7 +18,7 @@ Using ASP.NET Core, this builds pages that allow accessibility to:
   
 # Tasks
 //TODO//
-1. Re-make dev VM's because of Roberto
+1. Re-make dev VM's
 2. Make sure all code is intact and safe on GitHub.
 3. Fix the ReadMe issue
 4. Fix sanitization on custom SQL forms
