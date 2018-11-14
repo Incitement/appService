@@ -32,6 +32,9 @@ Newest Goal:
 - Create the landing pages for Microsoft, Google
 - Look further into creating a custom user profile database with Azure DB
 
+# Bonus Bonus Bonus BONUS GOAL!
+- Add an arcade or other custom fun web page to our app
+
 # Resources
 
 - Overview: https://docs.microsoft.com/en-us/azure/app-service/app-service-web-overview
